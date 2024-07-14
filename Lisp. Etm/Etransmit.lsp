@@ -9,7 +9,7 @@
 ; Read data
 
   (while (setq dong (read-line file))
-;	 (setq dong (strcat dong))
+	 (setq dong (strcat dong))
 	 (princ dong)
   	 (command "fileopen" dong) 
 	 (command "_.-etransmit" "" "_ch" "Standard" "_c" (strcat dong ".zip"))	
