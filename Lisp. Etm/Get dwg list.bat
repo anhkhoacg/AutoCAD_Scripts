@@ -1,0 +1,1 @@
+dir *.dwg /a /s /b /-p /o:gen >Dwg_List.txt
